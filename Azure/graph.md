@@ -2,6 +2,8 @@
 
 <h2>Ajout de l’App registration</h2>
 
+Se rendre sur <a href="https://portal.azure.com">Le portail Azure</a>
+
 Chercher et se rendre sur "App registrations"
 
 <img src="/assets/img/app_registrations.png" alt="App registrations">
