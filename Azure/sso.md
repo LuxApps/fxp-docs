@@ -50,7 +50,7 @@ Logout URL : {VotreNomDeDomaine}/saml/logout
 
 <img src="/assets/img/single_sign_on.png" alt="Single sign on">
 
-<b>Télécharger et nous envoyer le «SAML Signing Certificate» au format Base64</b>
+<b>Télécharger et nous envoyer le «SAML Signing Certificate» au format Base64 (Veiller à bien noter la date d’expiration afin de créer un nouveau certificat le moment venu et nous le communiquer avant expiration de l’ancien)</b>
 
 <h2>Création d’un groupe d’utilisateurs pouvant se connecter à l’intranet</h2>
 
