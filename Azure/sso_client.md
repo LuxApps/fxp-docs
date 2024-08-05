@@ -8,9 +8,7 @@ Chercher et cliquer sur Tenant properties:
 
 <img src="/assets/img/tenant_properties.png" alt="Tenant properties">
 
-<b>Copier et nous envoyer le “Tenant ID”:</b>
-
-<img src="/assets/img/tenant_id.png" alt="Tenant id">
+<b>Copier et nous envoyer le “Tenant ID”</b>
 
 <h2>Ajout de l’Enterprise Application</h2>
 
