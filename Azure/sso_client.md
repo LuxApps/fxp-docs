@@ -2,7 +2,7 @@
 
 <h2>Récupération du Tenant ID</h2>
 
-Se rendre sur <a href="https://portal.azure.com">Le portail Azure</a>
+Se rendre sur le portail Azure https://portal.azure.com/
 
 Chercher et cliquer sur Tenant properties:
 
