@@ -14,7 +14,7 @@ Chercher et cliquer sur Tenant properties:
 
 Chercher et se rendre sur «Enterprise applications», puis cliquer sur «New application»:
 
-<img src="/assets/img/enterprise_applications.png" alt="Enterprise applications">
+<img src="/assets/img/clients/enterprise_applications.png" alt="Enterprise applications">
 
 Cliquer sur "Create your own application":
 
@@ -22,11 +22,11 @@ Cliquer sur "Create your own application":
 
 <b>Copier et nous envoyer l’”Application ID”:</b>
 
-<img src="/assets/img/application_id.png" alt="Application ID">
+<img src="/assets/img/clients/application_id.png" alt="Application ID">
 
 Dans l’onglet «Properties», il faut modifier la valeur de «Assignment required» pour mettre «No»:
 
-<img src="/assets/img/properties.png" alt="Properties">
+<img src="/assets/img/clients/properties.png" alt="Properties">
 
 Dans l’onglet «Single sign on», il faut choisir «SAML»:
 
@@ -36,9 +36,9 @@ Dans l’onglet «Single sign on», il faut choisir «SAML»:
 
 Dans l’onglet Single sign on, il faut éditer la « Basic SAML configuration » comme suit avec les valeurs suivantes :
 
-Identifier : {VotreNomDeDomaine} (Exemple: https://intranet.luxapps.lu)
+Identifier : {VotreNomDeDomaine} (Exemple: https://domaine.lu)
 
-Reply URL : {VotreNomDeDomaine}/saml/acs/{ApplicationID} (Exemple: https://intranet.luxapps.lu/saml/acs/bda9fee28-8e62-4vvf-8fa6-016300b48a2f)
+Reply URL : {VotreNomDeDomaine}/saml/acs/{ApplicationID} (Exemple: https://domaine.lu/saml/acs/bda9fee28-8e62-4vvf-8fa6-016300b48a2f)
 
 Sign On URL : {VotreNomDeDomaine}/saml/login
 
@@ -50,7 +50,7 @@ Logout URL : {VotreNomDeDomaine}/saml/logout
 
 <b>Télécharger et nous envoyer le «SAML Signing Certificate» au format Base64 (Veiller à bien noter la date d’expiration afin de créer un nouveau certificat le moment venu et nous le communiquer avant expiration de l’ancien)</b>
 
-<h2>Création d’un groupe d’utilisateurs pouvant se connecter à l’intranet</h2>
+<h2>Création d’un groupe d’utilisateurs pouvant se connecter à la plateforme</h2>
 
 Retourner dans «Azure Active Directory»
 
@@ -62,7 +62,7 @@ Ajouter un groupe de sécurité via le bouton «New group»
 
 <b>Copier et nous envoyer l’ID du groupe créé</b>
 
-Ajouter les utilisateurs pouvant se connecter à l’intranet au groupe nouvellement créé
+Ajouter les utilisateurs pouvant se connecter à la plateforme au groupe nouvellement créé
 
 Vérifier que les utilisateurs ont bien ces données renseignées :
 
