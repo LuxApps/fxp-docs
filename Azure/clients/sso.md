@@ -38,7 +38,7 @@ Dans l’onglet Single sign on, il faut éditer la « Basic SAML configuration �
 
 Identifier : {VotreNomDeDomaine} (Exemple: https://domaine.lu)
 
-Reply URL : {VotreNomDeDomaine}/saml/acs/{ApplicationID} (Exemple: https://domaine.lu/saml/acs/bda9fee28-8e62-4vvf-8fa6-016300b48a2f)
+Reply URL : {VotreNomDeDomaine}/saml/acs/{ApplicationID} (Exemple: https://domaine.lu/saml/acs/518b88aa-d461-4c31-94ac-bfc6d3bfc3ba)
 
 Sign On URL : {VotreNomDeDomaine}/saml/login
 
@@ -46,7 +46,7 @@ Relay State : {VotreNomDeDomaine}/saml/acs/{AppID}
 
 Logout URL : {VotreNomDeDomaine}/saml/logout
 
-<img src="/assets/img/single_sign_on.png" alt="Single sign on">
+<img src="/assets/img/clients/single_sign_on.png" alt="Single sign on">
 
 <b>Télécharger et nous envoyer le «SAML Signing Certificate» au format Base64 (Veiller à bien noter la date d’expiration afin de créer un nouveau certificat le moment venu et nous le communiquer avant expiration de l’ancien)</b>
 

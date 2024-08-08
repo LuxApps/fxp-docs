@@ -6,6 +6,10 @@
 - [GRAPH](Azure/graph.md)
 - [Module congé](Azure/module_conge.md)
 
+<h2>Clients</h2>
+
+- [SSO](Azure/clients/sso.md)
+- [GRAPH](Azure/clients/graph.md)
 
 <h1>Autre</h1>
 
