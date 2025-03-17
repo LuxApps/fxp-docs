@@ -1,6 +1,6 @@
 # Documentation projets FXP
 
-<h1>Azure</h1>
+<h1>Interne</h1>
 
 - [SSO](Azure/sso.md)
 - [GRAPH](Azure/graph.md)
